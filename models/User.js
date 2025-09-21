@@ -2,7 +2,7 @@
 // const sequelize = require("./index");
 
 module.exports = (sequelize ,DataTypes) => {
-sequelize.define(
+const User = sequelize.define(
   "User",
   {
     // Model attributes are defined here
@@ -26,5 +26,6 @@ sequelize.define(
     tableName: "users",
   }
 );
+return User;
 
 }
