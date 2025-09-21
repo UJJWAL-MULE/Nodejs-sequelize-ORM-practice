@@ -15,4 +15,8 @@ try {
 }
 }
 connectDB();
-module.exports = sequelize;
+
+const User = require('./USer')(sequelize, Sequelize.DataTypes);
+const Contact = require('./contact')(sequelize, Sequelize.DataTypes);
+
+module.exports = {sequelize , User , Contact};
