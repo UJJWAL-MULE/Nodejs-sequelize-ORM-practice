@@ -1,0 +1,31 @@
+# Node.js
+node_modules/
+.env
+.DS_Store
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+dist/
+coverage/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Misc
+*.tgz
+*.swp
+
+# Sequelize
+config/config.json
